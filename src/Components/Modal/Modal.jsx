@@ -1,7 +1,7 @@
 import React, {useEffect, useState } from 'react'
 import { FaWindowClose } from "react-icons/fa";
 import 'animate.css';
-import { products } from '../../const/utils/app'
+import { products } from '../../Const/utils/app.js'
 const Modal = ({data , handlemodal}) => {
   const {id , modalstate} = data
       const  findData = products.find((item)=>{
